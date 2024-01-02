@@ -1,3 +1,4 @@
+/* eslint-disable no-dupe-keys */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -43,6 +44,71 @@ function Section({children, title}: SectionProps): React.JSX.Element {
         {title}
       </Text>
       <Text
+        style={[
+          styles.sectionDescription,
+          {
+            color: isDarkMode ? Colors.light : Colors.dark,
+          },
+        ]}>
+        {children}
+      </Text>
+      <Text
+        style={[
+          styles.sectionDescription,
+          {
+            color: isDarkMode ? Colors.light : Colors.dark,
+          },
+        ]}>
+        {children}
+      </Text>  <Text
+        style={[
+          styles.sectionDescription,
+          {
+            color: isDarkMode ? Colors.light : Colors.dark,
+          },
+        ]}>
+        {children}
+      </Text>  <Text
+        style={[
+          styles.sectionDescription,
+          {
+            color: isDarkMode ? Colors.light : Colors.dark,
+          },
+        ]}>
+        {children}
+      </Text>  <Text
+        style={[
+          styles.sectionDescription,
+          {
+            color: isDarkMode ? Colors.light : Colors.dark,
+          },
+        ]}>
+        {children}
+      </Text>  <Text
+        style={[
+          styles.sectionDescription,
+          {
+            color: isDarkMode ? Colors.light : Colors.dark,
+          },
+        ]}>
+        {children}
+      </Text>  <Text
+        style={[
+          styles.sectionDescription,
+          {
+            color: isDarkMode ? Colors.light : Colors.dark,
+          },
+        ]}>
+        {children}
+      </Text>  <Text
+        style={[
+          styles.sectionDescription,
+          {
+            color: isDarkMode ? Colors.light : Colors.dark,
+          },
+        ]}>
+        {children}
+      </Text>  <Text
         style={[
           styles.sectionDescription,
           {
@@ -106,6 +172,49 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   sectionDescription: {
+    marginTop: 8,
+    fontSize: 18,
+    fontWeight: '400',
+  },
+  highlight: {
+    fontWeight: '700',
+  },
+  sectionDescription: {
+    marginTop: 8,
+    fontSize: 18,
+    fontWeight: '400',
+  },
+  highlight: {
+    fontWeight: '700',
+  },sectionDescription: {
+    marginTop: 8,
+    fontSize: 18,
+    fontWeight: '400',
+  },
+  highlight: {
+    fontWeight: '700',
+  },sectionDescription: {
+    marginTop: 8,
+    fontSize: 18,
+    fontWeight: '400',
+  },
+  highlight: {
+    fontWeight: '700',
+  },sectionDescription: {
+    marginTop: 8,
+    fontSize: 18,
+    fontWeight: '400',
+  },
+  highlight: {
+    fontWeight: '700',
+  },sectionDescription: {
+    marginTop: 8,
+    fontSize: 18,
+    fontWeight: '400',
+  },
+  highlight: {
+    fontWeight: '700',
+  },sectionDescription: {
     marginTop: 8,
     fontSize: 18,
     fontWeight: '400',
